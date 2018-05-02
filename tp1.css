@@ -1,86 +1,90 @@
   .container-principal{
-  	background-color: grey;
-  	width: 1000px;
+    background-color: grey;
+  	width: 700px;
   	height: 700px;
-  	display: flex;
-  	display:block;
-  	text-align: center;
-
+    align-items: center;
+    margin: auto;
+  	  
   }
   .container1{
-  	background-color: blue;
+  	background-color: green;
   	width: 700px;
-  	height: 60px;
-  	display: flex;
-  	display:inline-block;
+  	height: 40px;
+    margin-top:20px;
+    display: flex;
+    
+
   }
   .logo{
   	background-color: red;
-  	width: 200px;
-  	height: 50px;
-  	display:inline-block;
-  	text-align: left;
+  	width: 100px;
+  	height: 40px;
+    justify-content: flex-start;
+    font-family: sans-serif;
+  
   }
+
+  
   .hipervinculos{
-  	background-color: green;
-  	width: 200px;
-  	height: 50px;
-  	display:inline-block;
-  	text-align: right;
+  	background-color: yellow;
+  	width: 600px;
+  	height: 40px;
+    display: flex;
+    justify-content: flex-end;
+
+
+  
   }
   .container2{
-  	background-color: yellow;
-  	width: 700px;
-  	height: 100px;
-  	display: flex;
-  	display:inline-block;
-  	display:space-between 10px;
-  }
-  .fotito{
-  	background-color: white;
-  	width: 90px;
-  	height: 90px;
-  	display:inline-block;
-  	text-align: right;
-  }
-  .quien-soy{
-  	background-color: orange;
-  	width: 90px;
-  	height: 90px;
-  	display:inline-block;
-  }
-  .git{
-  	background-color: blue;
-  	width: 90px;
-  	height: 90px;
-  	display: flex;
-  	display:inline-block;
-  }
-  .container3{
-  	background-color: pink;
-  	width: 700px;
-  	height: 200px;
-  	display: flex;
-  	display:inline-block;
-  }
-  .foto-principal{
-  	background-color: blue;
-  	width: 500px;
-  	height: 200px;
-  	display: flex;
-  	display:inline-block;
-  }
-  .container-inferior{
   	background-color: red;
   	width: 700px;
-  	height: 200px;
-  	display: flex;
-  	display:inline-block;
+  	height: 100px;
+    display: flex;  
+  	
   }
-  .container-ultimo{
-  	background-color: blue;
-  	width: 700px;
+  .logo1{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: auto;
+  }
+  .fotito{
+  	background-color: black;
+  	width: 100px;
+  	height: 90px;
+  	justify-content: flex-start;
+  }
+  .quien-soy{
+  	
+  	width: 500px;
+  	height: 90px;
+  	display:inline-block;
+    font-family: sans-serif;
+    margin-left: 40px;
+
+  }
+  .git{
+  
+  	width: 90px;
   	height: 90px;
   	display: flex;
-  	display:inline-block;
+    margin-right: 0px;
+    margin-top: 60px;
+    justify-content: space-between;
+    
   }
+
+  .foto-principal{
+  	background-color: orange;
+  	width: 700px;
+  	height: 200px;
+    margin: auto;
+    padding-top: 10px;
+    align-content: center;
+
+
+  }
+ #flores{
+   width: 700px;
+   height: 200px;
+ }
