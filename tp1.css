@@ -1,90 +1,193 @@
-  .container-principal{
-    background-color: grey;
-  	width: 700px;
-  	height: 700px;
-    align-items: center;
-    margin: auto;
-  	  
-  }
-  .container1{
-  	background-color: green;
-  	width: 700px;
-  	height: 40px;
-    margin-top:20px;
+  body{
     display: flex;
-    
+    justify-content: center;
+  }
+  .container-principal{
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
+  .container-logo {
+    flex-grow: <1>
   }
   .logo{
-  	background-color: red;
-  	width: 100px;
-  	height: 40px;
+    width: 200px;
+    height: auto;
     justify-content: flex-start;
-    font-family: sans-serif;
-  
   }
 
-  
   .hipervinculos{
-  	background-color: yellow;
-  	width: 600px;
-  	height: 40px;
+    margin-top: 20px;
+    margin-left: 500px;
+    float: right;
+}
+
+  .container1{
+    background-color:#ffe6ee;
+  	width: auto;
+  	height: 60px;
     display: flex;
-    justify-content: flex-end;
-
-
+    flex-direction: row;
+  }
   
+
+
+  a {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size:14px;
+    color:  #cc5692;
+    margin-left: 10px;
+    margin-top: 10px;
+
   }
   .container2{
-  	background-color: red;
-  	width: 700px;
-  	height: 100px;
-    display: flex;  
-  	
+  	width: auto;
+  	height: 120px;
+    display: flex;
   }
-  .logo1{
-    width: 100px;
-    height: 100px;
-    background-color: green;
-    margin: auto;
+  .fotitoContainer{
+   display: flex;
+
   }
   .fotito{
-  	background-color: black;
+  	background-color: white;
   	width: 100px;
-  	height: 90px;
-  	justify-content: flex-start;
+  	height: 100px;
+    float: left;
+    padding: 10px;
+    flex-grow: <1>
   }
   .quien-soy{
-  	
-  	width: 500px;
+  	width: 450px;
   	height: 90px;
-  	display:inline-block;
-    font-family: sans-serif;
-    margin-left: 40px;
-
+    float: left;
+    flex-grow: <2>
   }
-  .git{
+
+  h4 {
+    font-family: "arial";
+    font-size:14px;
+    color: #79797d;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  h5 {
+    font-family: "arial";
+    font-size:10px;
+    color: #79797d;
+    text-align: left;
+    margin-left: 10px;
+  }
+.logosGit{
+  width: 430px;
+  display: flex;
+  justify-content: flex-end;
   
-  	width: 90px;
-  	height: 90px;
-  	display: flex;
-    margin-right: 0px;
-    margin-top: 60px;
-    justify-content: space-between;
-    
+
+}
+  .git{
+    margin-top: 70px;
+  	width: 30px;
+  	height: 30px;
+  	
   }
 
-  .foto-principal{
-  	background-color: orange;
-  	width: 700px;
+  .in{
+    margin-top: 70px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+
+      }
+
+.container3{
+    flex-direction: row;
+  }
+
+.slider{
+   width: 1000px;
+   height: auto;
+  }
+
+.foto-principal{
+  	width: 1000px;
+  }
+
+.container-inferior{
+  display: flex;
+  	width: 1000px;
   	height: 200px;
-    margin: auto;
-    padding-top: 10px;
-    align-content: center;
-
-
+    justify-content:space-between;
+    margin-top: 10px;
   }
- #flores{
-   width: 700px;
-   height: 200px;
- }
+
+.cuadrito1{
+  width: 333px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+
+}
+
+.cuadrito2{
+  width: 333px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.cuadrito3{
+  display: flex;
+  width: 333px;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.muestra {
+  width: 150px;
+  height: 150px;
+}
+
+.textoMuestra{
+
+  width: 200px;
+  height: 150px;
+}
+.titulo {
+    font-family: "arial";
+    font-weight: bolder;
+    font-size:10px;
+    color: #cc5692;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+.intro {
+    font-family: "arial";
+    font-size:10px;
+    color: #79797d;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+
+.container-ultimo{
+  	width: 870;
+  	height: 60px;
+    display: flex;
+    flex-direction: row;
+  }
+
+.redes{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 760px;
+}
+.imgRedes{
+  width: 30px;
+  height: 30px;
+}
